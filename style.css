@@ -21,11 +21,16 @@ body {
 .profileimg{
 	border-radius: 90%;
 	width: auto;
+	transition: 0.5s;
+}
+
+.profileimg:hover {
+	transform: scale(1.2);
 }
 
 .nav-links {
 	display: flex;
-	gap: 3em;
+	gap: 2em;
 	justify-content: center;
 	text-decoration: none !important;
 	
@@ -78,6 +83,11 @@ body {
 .proyect img {
 	border-radius: 0.25rem;
 	width: 70%;
+	transition: 0.5s;
+}
+
+.proyect img:hover {
+	transform: scale(1.05);
 }
 
 .button {
