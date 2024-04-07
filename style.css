@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	background: linear-gradient(0.5turn,#02112b, #000) no-repeat #000;
 	color: white;
-	
+	overflow: hidden;
 }
 
 .container {
@@ -30,7 +30,6 @@ body {
 
 .nav-links {
 	display: flex;
-	gap: 2em;
 	justify-content: center;
 	text-decoration: none !important;
 	
@@ -117,6 +116,10 @@ footer {
 footer section a {
 	text-decoration: none !important;
 	color: gray;
+	transition: 0.1s;
+}
+footer section a:hover {
+	color: rgb(163, 163, 163) !important;
 }
 
 @media (min-width: 768px) {
