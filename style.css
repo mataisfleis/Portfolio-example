@@ -5,7 +5,6 @@ body {
 	margin: 0;
 	background: linear-gradient(0.5turn,#02112b, #000) no-repeat #000;
 	color: white;
-	overflow: hidden;
 }
 
 .container {
